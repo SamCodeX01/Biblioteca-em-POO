@@ -14,6 +14,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Biblioteca biblioteca = new Biblioteca();
+        Livro livro = new Livro();
+
         
         System.out.print("Cadastrar nome: ");
         String cadastroNome = sc.nextLine();

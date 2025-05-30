@@ -14,10 +14,10 @@ String titulo;
 String autor;
 String genero;
 String num_paginas;
-boolean disponivel;
+boolean empretado;
 
 public void emprestar(){}
 public void devolver(){}
-public void get_info(){} //(para exibir informações do livro) 
+public void infoDoLivro(){} //(para exibir informações do livro)
 
 }

@@ -3,20 +3,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- *
  * @author gabriel.alunos
  */
 public class Usuario {
-   
-//Membro:
-//Atributos: nome, id, endereço, em_atraso 
-//Métodos: emprestar_livro(), devolver_livro(), get_livros_em_posse() 
 
-    
-    int id;
-    String nome;
-    int idade;
-    String endereço;
-    boolean em_atraso;
+//Atributos:
+int id;
+String membro_nome;
+int idade;
+String endereco;
+boolean em_atraso;
+List<Livro> livrosEmprestados = new ArrayList<>();
+
+//Métodos
+public boolean emprestar_livro(){};
+public void devolver_livro(){};
 }

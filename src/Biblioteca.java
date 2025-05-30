@@ -10,18 +10,24 @@ import java.util.ArrayList;
  *
  * @author gabriel.alunos
  */
-public class Biblioteca {  
-ArrayList addLivros = new ArrayList<>();
+public class Biblioteca {//INÍCIO DA CLASSE
+
+//ATRIBUTOS
 String nome;
 String endereco;
 String lista_livros;
 String lista_membros;
 
-public String adicionar_livro(String nome){   
-    
+//CONSTRUTOR
+//MÉTODOS
+ArrayList addLivros = new ArrayList<>();
+
+public String adicionar_livro(String nome){
     addLivros.add(nome);
     return nome;
 }
+//MÉTODOS GETTERS
+//MÉTODOS SETTERS
 
 
 
