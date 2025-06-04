@@ -26,7 +26,9 @@ Scanner sc = new Scanner(System.in);
 public void cadastrar_livro(){
     System.out.print("Nome do livro a ser cadastrado: ");
     String nn = sc.nextLine();
-    //livro.setTitulo(nn);
+    livro.setTitulo(nn);
+
+
     cadastrarLivros.add(nn);
     System.out.println("Livro: " + nn + " Cadastrado!");
 }
