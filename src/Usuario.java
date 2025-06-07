@@ -8,7 +8,8 @@ public class Usuario {
 //Atributos:
 private String nome;
 private int idade;
-String endereco;
+private String endereco;
+private int telefone;
 
 //Métodos
 
